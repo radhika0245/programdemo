@@ -28,6 +28,22 @@ function minus();
  document.getElementbyId("answer").value;
 }
 
+function multiply();
+{
+ var,num1,num2,mul;
+ num1=perseInt(document.getElementById("first number").value);
+ mul=num1*num2
+ document.getElementbyId("answer").value;
+}
+
+function division();
+{
+ var,num1,num2,div;
+ num1=perseInt(document.getElementById("first number").value);
+ div=num1/num2
+ document.getElementbyId("answer").value;
+}
+
 function Reset();
 document.getElementbyId("first number").value" ";
 document.getElementbyId("second number").value" ";
@@ -41,6 +57,8 @@ document.getElementbyId("answer").value" ";
 <p>Enter the second number:<input id="second number"></p>
 <button onclick="add()">+</button>
 <button onclick="sub()">-</button>
+<button onclick="mul()">*</button>
+<button onclick="div()">/</button>
 <button onclick="Reset()">C</button>
 <Result:inputId="answer">
 </center>
